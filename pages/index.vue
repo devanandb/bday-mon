@@ -10,7 +10,7 @@
                   <video autoplay loop width="100%">
                     <source src="~/assets/1080p.mp4" type="video/mp4" />
                   </video>
-                  <div class="play">></div>
+                  <div class="play"></div>
                 </div>
               </div>
             </div>
@@ -18,7 +18,7 @@
           <div class="md:w-2/5">
             <h1 class="text-6xl font-bold pt-40 pb-80">
               Happy Birthday <br />
-              <div class="text-9xl flex">
+              <div class="text-4xl lg:text-9xl flex">
                 <span class="text-blue-400">M</span>
                 <span class="text-yellow-400">o</span>
                 <span class="text-green-400">n</span>
@@ -37,22 +37,35 @@
         <h2 class="text-5xl text-purple-700 font-bold text-center pb-10">
           Birthday wishes from friends
         </h2>
-        <div class="grid grid-cols-5 gap-5 mb-10">
-          <div class="col-span-2">
+        <div class="grid grid-cols-6 gap-5">
+          <div class="col-span-3">
             <img
               class="item bg-white rounded-lg shadow-xl"
               src="/rakshu.jpeg"
               alt=""
             />
-          </div>
-          <div class="col-span-3">
             <img
-              class="item bg-white rounded-lg shadow-xl"
+              class="item bg-white rounded-lg shadow-xl mt-5"
               src="/akki.jpeg"
               width="100%"
               alt=""
             />
           </div>
+
+          <div class="col-span-3">
+            <img
+              class="item bg-white rounded-lg shadow-xl"
+              src="/4.jpeg"
+              alt=""
+            />
+            <img
+              class="item bg-white rounded-lg shadow-xl mt-20"
+              src="/3.jpeg"
+              alt=""
+            />
+          </div>
+          <div class="col-span-3"></div>
+          <div class="col-span-2"></div>
         </div>
         <vue-masonry-wall
           :items="messages"
@@ -112,6 +125,11 @@ export default {
           author: 'Girika',
           text:
             'Many many happy returns of the day darling🎂🎈🎉..Stay blessed 😁...Enjoy your day 😁😘😘😘',
+        },
+        {
+          author: 'Shwetha',
+          text:
+            'You have been there for me no matter what. I love you, my dear friend, and I am so excited to share your special day with you. Your birthday is going to be truly special. Happy Birthday Darling Mona❤️',
         },
         {
           author: 'Ashwin Soman',
